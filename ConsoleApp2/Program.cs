@@ -29,7 +29,7 @@ namespace ConsoleApp2
                 Console.WriteLine($"В городе {ansver.name}\r\nTemp:{ansver.main.temp};TempMax:{ansver.main.temp_max};TempMin:{ansver.main.temp_min}");
             }
             catch (Exception)
-            {
+            {// вывы
                 Console.WriteLine("Для выбора города необходимо указать его число!\r\nПовторите попытку еще раз!");
             }
         }
